@@ -10,6 +10,10 @@ app.use((req,res,next)=> {
     next();
 });
 
+app.get('/', (req,res)=> {
+    res.json({msg: "home page"});
+})
+
 app.use('/painting', paintingRoutes);
 
 

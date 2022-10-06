@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/factions', (req,res)=> {
-    res.json({msg: "Factions"});
+router.get('/', (req,res)=> {
+    res.json({msg: "Painting- Factions"});
 });
 
 router.get('/deathguard',(req,res)=> {
