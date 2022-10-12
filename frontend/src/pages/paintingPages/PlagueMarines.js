@@ -1,14 +1,14 @@
 import {Link} from 'react-router-dom';
-const DeathGuard = () => {
+const PlagueMarines = () => {
     return (
-        <div className='deathguard'>
-            <Link to="/painting">
+        <div className='PlagueMarines'>
+            <Link to="/painting/Orks">
                 <p>Back</p>
             </Link>
             <div className='content'>
-                <h2>Death Guard</h2>
+                <h2>Plague Marines</h2>
             </div>
         </div>
     )
 }
-export default DeathGuard;
+export default PlagueMarines;

@@ -3,7 +3,7 @@ const AdeptaSororitas = () => {
     return (
         <div className='Adepta Sororitas'>
             <Link to="/painting">
-                <p>back</p>
+                <p>Back</p>
             </Link>
             <div className='content'>
                 <h2>Adepta Sororitas</h2>

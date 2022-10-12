@@ -4,10 +4,14 @@ const Orks = () => {
     return (
         <div className='Orks'>
             <Link to="/painting">
-                <p>back</p>
+                <h3>Back</h3>
             </Link>
-            <div className='content'>
-                <h2>Orks</h2>
+            <div className='content'
+            >
+                <h1>Orks</h1>
+                <Link to="/painting/Orks/Kommandos">
+                    <h2>Kommandos</h2>
+                </Link>
             </div>
         </div>
     )
