@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Home from './pages/Home';
 import Navbar from './components/navbar';
+import Software from './pages/software';
 import Painting from './pages/painting';
 import Gaming from './pages/gaming';
 
@@ -19,7 +20,7 @@ function App() {
               />
            <Route 
               path='/software'
-              element={<Home/>}
+              element={<Software/>}
               />
             <Route 
               path='/painting'
