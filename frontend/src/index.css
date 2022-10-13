@@ -31,3 +31,46 @@ header a {
   padding: 20px;
   margin: 0 auto;
 }
+.main-style {
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  background: #fff;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.main-style h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.main-style h1 {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.list-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 20px;
+  width:40%;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.list-style h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.list-style h1 {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
