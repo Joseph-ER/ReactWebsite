@@ -2,13 +2,17 @@ import {Link} from 'react-router-dom';
 const DeathGuard = () => {
     return (
         <div className='deathguard'>
+           <div className='back-button'>
             <Link to="/painting">
                 <h3>Back</h3>
             </Link>
-            <div className='content'>
+            </div>
+            <div className='list-style'>
                 <h2>Death Guard</h2>
+            </div>
+                <div className='list-style'>
                 <Link to="/painting/DeathGuard/PlagueMarines">
-                    <h2>Plague Marines</h2>
+                    <h1>Plague Marines</h1>
                 </Link>
             </div>
         </div>

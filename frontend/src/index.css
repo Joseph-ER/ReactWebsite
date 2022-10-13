@@ -7,12 +7,12 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #4e5147;
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: #353535;
 }
 header .container {
   max-width: 1400px;
@@ -23,7 +23,7 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #FBF4F4;
   text-decoration: none;
 }
 .pages{
@@ -35,12 +35,13 @@ header a {
   display: flex;
   align-items: center;
  justify-content: space-between;
-  background: #fff;
+  background: #353535;
   border-radius: 4px;
   margin: 10px auto;
   padding: 20px;
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  width: 90%
 }
 .main-style h2 {
   margin: 0 0 10px 0;
@@ -50,13 +51,18 @@ header a {
 .main-style h1 {
   margin: 0;
   font-size: 0.9em;
-  color: #555;
+  color: #FBF4F4;
+}
+.main-style p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #FBF4F4;
 }
 .list-style {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: #353535;
   border-radius: 4px;
   margin: 10px auto;
   padding: 20px;
@@ -72,5 +78,17 @@ header a {
 .list-style h1 {
   margin: 0;
   font-size: 0.9em;
-  color: #555;
+  color: #FBF4F4;
+}
+.back-button{
+  background: #353535;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 20px;
+  position: fixed;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.list-img{
+  width: 300px;
+  display: flex;
 }

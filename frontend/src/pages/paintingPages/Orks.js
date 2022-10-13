@@ -2,13 +2,17 @@ import {Link} from 'react-router-dom';
 const Orks = () => {
     return (
         <div className='Orks'>
+            <div className='back-button'>
             <Link to="/painting">
                 <h3>Back</h3>
             </Link>
-            <div className='content'>
-                <h1>Orks</h1>
+            </div>
+            <div className='list-style'>
+                <h2>Orks</h2>
+            </div>
+                <div className='list-style'>
                 <Link to="/painting/Orks/Kommandos">
-                    <h2>Kommandos</h2>
+                    <h1>Kommandos</h1>
                 </Link>
             </div>
         </div>

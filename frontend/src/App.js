@@ -14,7 +14,7 @@ import Kommandos from './pages/paintingPages/Kommandos';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <BrowserRouter>
       <Navbar />
         <div className="Pages">
