@@ -1,6 +1,4 @@
 import {Link} from 'react-router-dom';
-import plagueMarines1 from '../../components/images/plagueMarines1.jpg';
-import plagueMarines2 from '../../components/images/plagueMarines2.jpg';
 const PlagueMarines = () => {
     return (
         <div className='PlagueMarines'>
@@ -10,10 +8,7 @@ const PlagueMarines = () => {
             </Link>
             </div>
             <div className='list-style'>
-                <h2>Plague Marines</h2>
-            </div>
-            <div className='view-style'>
-                <img src={plagueMarines1} className='view-img'/>
+                <h2>Typhus</h2>
             </div>
         </div>
     )

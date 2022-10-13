@@ -80,6 +80,11 @@ header a {
   font-size: 0.9em;
   color: #FBF4F4;
 }
+.list-style p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #FBF4F4;
+}
 .back-button{
   background: #353535;
   border-radius: 4px;
@@ -91,4 +96,20 @@ header a {
 .list-img{
   width: 300px;
   display: flex;
+}
+.view-img{
+  width: 10in;
+  display: flex;
+}
+.view-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #353535;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 20px;
+  width: 11in;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }

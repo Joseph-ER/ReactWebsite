@@ -1,7 +1,9 @@
 const Software = () => {
     return (
         <div className='software'>
-            <h2>Software</h2>
+            <div className="list-style">
+                <h2>Software</h2>
+            </div>
         </div>
     )
 }
